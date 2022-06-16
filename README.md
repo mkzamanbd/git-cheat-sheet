@@ -54,3 +54,65 @@ Git and GitHub Command Cheat Sheet
     * Amending the last commit
     * Interactive rebasing
 
+The essential Git commands every developer must know
+
+This cheat sheet covers all of the Git commands I’ve covered in my Ultimate Git Mastery blog.
+✓ Creating snapshots
+✓ Browsing history
+✓ Branching & merging
+✓ Collaboration using Git & GitHub
+✓ Rewriting history
+
+## Creating Snapshots‌
+
+### Initializing a repository
+
+```bash
+git init 
+```
+
+### Staging files
+
+```bash
+git add file1.js
+# Stages a single file 
+```
+
+```bash
+git add file1.js file2.js
+# Stages multiple files
+```
+
+```bash
+git add *.js 
+# Stages with a pattern
+```
+
+```bash
+git add . 
+# Stages the current directory and all its content
+```
+
+### Viewing the status
+
+```bash
+git status 
+# Full status
+```
+
+```bash
+git status -s 
+# Short status
+```
+
+### Committing the staged files
+
+```bash
+git commit -m “Message” 
+# Commits with a one-line message
+```
+
+```bash
+git commit 
+# Opens the default editor to type a long message
+```
